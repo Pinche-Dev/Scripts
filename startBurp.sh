@@ -1,6 +1,6 @@
 #/bin/bash
 
 
-cd /home/pinche/Hack/BurpProfessional
+cd /home/pinche/Hack/
 pwd
-java -noverify -javaagent:burploader.jar -jar --illegal-access=permit burpsuite_pro_v2021.4.3.jar
+java --illegal-access=permit -noverify -javaagent:burploader.jar -jar burpsuite_pro_v2021.8.1.jar
